@@ -2994,6 +2994,7 @@ dependencies = [
  "poem",
  "poem-openapi",
  "sp-keyring",
+ "sp-runtime",
  "subxt",
  "subxt-codegen",
  "syn",

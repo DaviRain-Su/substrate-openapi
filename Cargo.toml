@@ -17,6 +17,11 @@ codec = { package = "parity-scale-codec", version = "3.0.0",  features = ["deriv
 hex = "0.4.3"
 tracing-subscriber = "0.3.11"
 anyhow = "1.0.66"
+sp-runtime = { version = "7.0" }
+
+[features]
+full = ["system"]
+system = []
 
 [build-dependencies]
 tokio = { version = "1.21.2", features = ["full"] }
